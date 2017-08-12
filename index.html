@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kimberly Strauch</title>
+    <link href="./styles.css" rel="stylesheet" type="text/css"/>
+  </head>
+  <body>
+    <div class="intro">
+      <header class="main-header">
+        <span class="prompt">~/</span>kimstrauch<span class="prompt">$</span>
+      </header>
+      <nav class="main-nav">
+         <ul>
+           <li><a href="#about">About</a></li>
+           <li><a href="#work">Projects</a></li>
+           <li><a href="mailto:kas04274@gmail.com">Contact</a></li>
+           <li><a href="./assets/KimberlyStrauchResume.pdf">Resume</a></li>
+         </ul>
+      </nav>
+    </div>
+    <main class="main-content">
+      <section class="about">
+        <h2 id="about">About</h2>
+        <p>
+          Hi there! I'm Kim.
+          I'm a software engineer who likes using technology to solve interesting problems.
+          When I'm not at my computer, you can probably find me traveling, drinking copious amounts of coffee, or
+          mastering the art of the pull-up.
+        </p>
+        <p>
+          I graduated with a B.A. in Computer Science from Dartmouth College in 2015, where I led the Women in Computer Science Club.
+          Since graduating, I've been working in a rotational Program at Apple where I've worn many hats. I've tried out various
+          areas of the stack as well as user experience.
+        <p>
+          I'm passionate about the intersection between technology and education and I love teaching others things I've learned along the way.
+        </p>
+      </section>
+      <section class="work">
+        <h2 id="work">Projects</h2>
+        <p>
+          While I've worked on a number of cool projects at Apple in the past two years, they're secret!
+          Here are some of the projects I've done in my free time.
+        </p>
+        <section class="gallery">
+          <a href="https://github.com/byteme980/30-20-10">
+            <figure>
+              <img src="./assets/jogrunsprint.png" alt="30-20-10 screenshot"/>
+              <figcaption>30 20 10</figcaption>
+            </figure>
+          </a>
+          <a href="https://github.com/byteme980/bucket-list-bot">
+            <figure>
+              <img src="./assets/gratbot.png"/>
+              <figcaption>GratBot</figcaption>
+            </figure>
+          </a>
+          <a href="https://github.com/byteme980/pixel-perfect">
+            <figure>
+              <img src="./assets/pixelArt.png"/>
+              <figcaption>Pixel Art</figcaption>
+            </figure>
+          </a>
+          <a href="">
+            <figure>
+              <img src="./assets/zine.png"/>
+              <figcaption>Charlotte's Website</figcaption>
+            </figure>
+          </a>
+          <article>
+            <h3>30-20-10</h3>
+            <p>
+              After reading the <em>New York Times</em> article <a href="https://well.blogs.nytimes.com/2015/07/29/a-way-to-get-fit-and-also-have-fun/">A Way to Get Fit and Have Fun</a>,
+              I built an iOS app in <strong>Swift</strong> to implement a fun, 30-20-10 style workout that would run in the background.
+              This app lets you configure the settings of your workout and provides audio cues when it's time to switch to jogging, running, sprinting, resting, cooling down, etc.
+              Because the app works in the background, you can listen to whatever music you'd like during the workout.
+              Check out the <a href="">Github repo</a>.
+            </p>
+          </article>
+          <article>
+            <h3>Pixel Art</h3>
+            <p>
+              I recently built a pixel art generator using <strong>React</strong> and <strong>Redux</strong>, with undo and redo functionality. It was a lot of fun to see the
+              power of Redux and functional programming. I plan to add a bucket-fill feature, image export capabilities, and greater user customization. Check out the <a href="https://github.com/byteme980/pixel-perfect">Github repo</a>.
+            </p>
+          </article>
+          <article>
+            <h3>GratBot</h3>
+            <p>
+              A number of studies have shown that incorporating a gratitude practice into your daily routine can make you happier.
+              After reading a number of articles on the subject, I decided to make a chatbot that would make it easy to do this!
+              I wrote this project using <strong>NodeJS, MongoDB,</strong> and the <strong>Messenger Webhook</strong>.
+              Then I deployed it to <strong>Heroku</strong> and set up a <strong>Heroku Scheduler</strong> to automatically message users
+              at their deteremined notification frequency. Check out the <a href="">Github repo</a>
+            </p>
+          </article>
+          <article>
+            <h3>Charlotte's Website</h3>
+            <p>
+              It's always been a goal of mine to write a children's book about Computer Science, and recently I figured, why wait?!
+              After reading Julia Evans' <a href="https://jvns.ca/blog/networking-zine-launch/">Networking Zine</a>, I've been inspired
+              to create my own zine geared toward children about basic web development.
+              Check out my  <a href="https://www.icloud.com/pages/0QY59EltZnvOV8OK0YcEhmvxg#Charlotte's_Website">work in progress</a>.
+            </p>
+          </article>
+        </section>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,173 @@
+body {
+  font-family: 'Helvetica-Neue', sans-serif;
+  color: #2e2e2e;
+  font-size: 16px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.intro {
+  background: #1e1e1e;
+  font-family: "Courier";
+  height: 300px;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.main-nav {
+  width: 100%;
+}
+
+.main-nav a {
+  text-decoration: none;
+  font-size: 2em;
+  font-weight: 1em;
+  color: #00a9d9;
+}
+
+.main-nav a:hover {
+  text-decoration: underline;
+}
+
+a {
+  text-decoration: none;
+  color: #00a9d9;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+.main-nav ul {
+  list-style: none;
+  display: flex;
+  width: 100%;
+  padding: 0;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.main-header {
+  color: hotpink;
+  font-size: 3em;
+}
+
+.prompt {
+  color: #9932CC;
+}
+
+.main-content{
+  background: #ffffff;
+  min-height: 40vh;
+  max-width: 800px;
+  padding: 5px 40px;
+}
+
+.main-content section {
+  padding-top: 10px;
+}
+.main-footer{
+  background: #ABC999;
+  padding: 10px;
+}
+
+.about ul {
+  list-style: none;
+  padding:0;
+}
+.about ul li {
+  display: inline;
+}
+
+.about img {
+  width: 300px;
+  height: auto;
+}
+
+.about .col {
+  display: flex;
+  justify-content: space-around;
+}
+
+.about .left {
+  flex-grow: 1;
+}
+.about .right {
+  flex-grow: 2;
+}
+
+.gallery {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  flex-wrap: wrap;
+  overflow: hidden;
+
+}
+
+.gallery img {
+  height: 500px;
+  width: auto;
+}
+
+.gallery figcaption {
+  text-align: center;
+}
+
+
+
+@media screen and (max-width:550px) {
+  body {
+    align-items: stretch;
+  }
+  .gallery img {
+    width: 300px;
+    height: auto;
+  }
+  .main-nav ul {
+    align-items: center;
+    flex-direction: column;
+  }
+}
+
+.contact {
+  position: relative;
+}
+/* contact form styles */
+#msg {
+  height: 200px;
+  width: 100%;
+  padding-left: 5px;
+  margin-top: 10px;
+}
+
+#email {
+  width: 120px;
+}
+
+#subject {
+  display: block;
+  width: 300px;
+  margin-top: 5px;
+}
+#send {
+  width: 100px;
+  height: 40px;
+  font-size: 20px;
+  border-radius: 5px;
+  border: none;
+  background: #1e1e1e;
+  color: #00a9d9;
+  display: inline-block;
+}
+
+.contact input{
+  display: block;
+  margin: 5px 0;
+}
